@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            style="@style/taglineText"
+            android:paddingTop="12dp"
+            android:text="@string/discover_how_to_use"
+            app:fontFamily="@font/kameron_bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/images"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_tablet_android_black_24dp_2x" />
+
+                <ImageView
+                    style="@style/images"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_laptop_chromebook_black_24dp_2x" />
+
+                <ImageView
+                    style="@style/images"
+                    android:layout_weight="0"
+                    android:src="@drawable/ic_phone_iphone_black_24dp_2x" />
+
+                <ImageView
+                    style="@style/images"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_tv_black_24dp_2x" />
+
+                <ImageView
+                    style="@style/images"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_tablet_mac_black_24dp_2x" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/taglineText"
+                android:layout_centerHorizontal="true"
+                android:text="these"
+                app:fontFamily="@font/kameron_bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/taglineText"
+            android:text="@string/to_access"
+            app:fontFamily="@font/kameron_bold" />
+
+        <ImageView
+            style="@style/images"
+            android:layout_height="100dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/indypl_logo_606x615" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <TextView
+                style="@style/mediumText"
+                android:background="@color/colorAccent"
+                android:padding="8dp"
+                android:text="@string/tinker_station"
+                android:textAllCaps="true"
+                android:textColor="@color/colorDarkText"
+                app:fontFamily="@font/didact_gothic" />
+
+            <TextView
+                style="@style/smallText"
+                android:text="@string/tinker_station_staff_can_help_you_borrow_ebooks_eaudiobooks_emagazines_music_and_movies_n_all_free_with_your_library_card"
+                app:fontFamily="@font/didact_gothic" />
+
+            <TextView
+                style="@style/smallText"
+                android:autoLink="web"
+                android:text="@string/find_in_person_help_sessions_n_indypl_org_events_detail_event_id_3078"
+                app:fontFamily="@font/didact_gothic" />
+
+            <TextView
+                style="@style/smallText"
+                android:layout_marginBottom="16dp"
+                android:autoLink="phone"
+                android:text="@string/phone_support_317_275_4500"
+                app:fontFamily="@font/didact_gothic" />
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/mediumText"
+            android:autoLink="web"
+            android:text="@string/check_out_our_ndownload_and_stream_collection_nindypl_org_download_and_stream"
+            app:fontFamily="@font/kameron" />
+
+    </LinearLayout>
+</ScrollView>

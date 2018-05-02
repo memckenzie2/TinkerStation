@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tinker Station</string>
+    <string name="discover_how_to_use">Discover how to use</string>
+    <string name="to_access">to access</string>
+    <string name="tinker_station">Tinker Station</string>
+    <string name="tinker_station_staff_can_help_you_borrow_ebooks_eaudiobooks_emagazines_music_and_movies_n_all_free_with_your_library_card">Tinker Station staff can help you borrow eBooks, eAudiobooks, eMagazines, music, and movies.\n All free with your library card!</string>
+    <string name="find_in_person_help_sessions_n_indypl_org_events_detail_event_id_3078">Find in-person help sessions:\nindypl.org/events/detail/?event_id=3078</string>
+    <string name="phone_support_317_275_4500">Phone Support: (317)275-4500</string>
+    <string name="check_out_our_ndownload_and_stream_collection_nindypl_org_download_and_stream">Check out our\nDownload and Stream Collection.\nIndyPL.org/Download-and-Stream</string>
+</resources>
